@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FeedbackViewController">
+            <connections>
+                <outlet property="contentTV" destination="FKJ-Ee-WIP" id="XAu-hS-l33"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     可输入您的问题和意见" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZb-E2-dCj">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ZL2-yJ-HjM">
+                            <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ZL2-yJ-HjM"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ZL2-yJ-HjM"/>
+                        </mask>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKJ-Ee-WIP">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="201" id="4uh-d2-Ss3">
+                            <variation key="heightClass=regular-widthClass=compact" constant="200"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="4uh-d2-Ss3"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="4uh-d2-Ss3"/>
+                        </mask>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FKJ-Ee-WIP" secondAttribute="trailing" id="4SB-cU-rqf">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="qZb-E2-dCj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="G1x-cx-bE5"/>
+                <constraint firstItem="FKJ-Ee-WIP" firstAttribute="top" secondItem="qZb-E2-dCj" secondAttribute="bottom" constant="8" id="eHx-n9-r6u">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="FKJ-Ee-WIP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hCa-Sh-O7O">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="qZb-E2-dCj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="j7b-Cc-wI8">
+                    <variation key="heightClass=regular-widthClass=compact" constant="64"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="qZb-E2-dCj" secondAttribute="trailing" id="jsN-Ca-iP8"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="qZb-E2-dCj"/>
+                    <exclude reference="FKJ-Ee-WIP"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="G1x-cx-bE5"/>
+                    <exclude reference="j7b-Cc-wI8"/>
+                    <exclude reference="jsN-Ca-iP8"/>
+                    <exclude reference="4SB-cU-rqf"/>
+                    <exclude reference="eHx-n9-r6u"/>
+                    <exclude reference="hCa-Sh-O7O"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="qZb-E2-dCj"/>
+                    <include reference="FKJ-Ee-WIP"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="G1x-cx-bE5"/>
+                    <include reference="j7b-Cc-wI8"/>
+                    <include reference="jsN-Ca-iP8"/>
+                    <include reference="4SB-cU-rqf"/>
+                    <include reference="eHx-n9-r6u"/>
+                    <include reference="hCa-Sh-O7O"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="238" y="255"/>
+        </view>
+    </objects>
+</document>

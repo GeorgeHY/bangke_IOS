@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="108" id="KGk-i7-Jjw" customClass="Cell_Invite">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="IGw-a1-UBE">
+                        <rect key="frame" x="8" y="18" width="100" height="71"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="gVQ-lu-Dh6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="买豆皮" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRB-Z4-bUf">
+                        <rect key="frame" x="138" y="18" width="109" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Cg0-hZ-hhd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQ7-s7-uh4">
+                        <rect key="frame" x="255" y="8" width="80" height="91"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="WPy-Hn-vvt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帮客帮您" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1r4-cX-Yfn">
+                        <rect key="frame" x="110" y="43" width="137" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="SO7-57-qSR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.8km" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aU6-n9-P9d">
+                        <rect key="frame" x="110" y="68" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6na-ON-ToD"/>
+                            <constraint firstAttribute="width" constant="100" id="Pnb-q8-vC1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="邀.png" translatesAutoresizingMaskIntoConstraints="NO" id="CMC-s6-hv4">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="34p-CA-749"/>
+                            <constraint firstAttribute="width" constant="20" id="PFR-wo-ICk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="34p-CA-749"/>
+                                <exclude reference="PFR-wo-ICk"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="34p-CA-749"/>
+                                <include reference="PFR-wo-ICk"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="IGw-a1-UBE" secondAttribute="bottom" constant="10" id="0VT-11-adc"/>
+                    <constraint firstItem="mQ7-s7-uh4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="9Uq-gR-fLy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="IGw-a1-UBE" secondAttribute="bottom" constant="39" id="Do3-yR-LuS"/>
+                    <constraint firstItem="FRB-Z4-bUf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Eyv-Eh-K8l"/>
+                    <constraint firstItem="IGw-a1-UBE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="Ijs-zl-gmE"/>
+                    <constraint firstItem="aU6-n9-P9d" firstAttribute="leading" secondItem="IGw-a1-UBE" secondAttribute="trailing" constant="2" id="JVc-BU-Mli"/>
+                    <constraint firstItem="1r4-cX-Yfn" firstAttribute="top" secondItem="CMC-s6-hv4" secondAttribute="bottom" constant="5" id="Krr-cS-Chy"/>
+                    <constraint firstItem="mQ7-s7-uh4" firstAttribute="leading" secondItem="FRB-Z4-bUf" secondAttribute="trailing" constant="8" id="M2V-4T-32k"/>
+                    <constraint firstItem="mQ7-s7-uh4" firstAttribute="leading" secondItem="1r4-cX-Yfn" secondAttribute="trailing" constant="8" id="MD4-5n-Tyu"/>
+                    <constraint firstItem="IGw-a1-UBE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Oxe-gm-pGW"/>
+                    <constraint firstItem="IGw-a1-UBE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Rqa-EI-qWi"/>
+                    <constraint firstItem="1r4-cX-Yfn" firstAttribute="top" secondItem="FRB-Z4-bUf" secondAttribute="bottom" constant="5" id="UyR-lJ-ucN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mQ7-s7-uh4" secondAttribute="bottom" id="WtY-jr-xgH"/>
+                    <constraint firstItem="1r4-cX-Yfn" firstAttribute="leading" secondItem="IGw-a1-UBE" secondAttribute="trailing" constant="2" id="XhH-Rw-Ta4"/>
+                    <constraint firstAttribute="centerY" secondItem="IGw-a1-UBE" secondAttribute="centerY" id="dia-m9-Lit"/>
+                    <constraint firstItem="FRB-Z4-bUf" firstAttribute="leading" secondItem="IGw-a1-UBE" secondAttribute="trailing" constant="30" id="iLs-TQ-UHw">
+                        <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                    </constraint>
+                    <constraint firstItem="aU6-n9-P9d" firstAttribute="top" secondItem="1r4-cX-Yfn" secondAttribute="bottom" constant="5" id="kMS-0I-LZ4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mQ7-s7-uh4" secondAttribute="trailing" constant="10" id="ugq-lR-iQ4">
+                        <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                    </constraint>
+                    <constraint firstItem="mQ7-s7-uh4" firstAttribute="leading" secondItem="CMC-s6-hv4" secondAttribute="trailing" constant="8" id="zWE-C6-HTF"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="CMC-s6-hv4"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="Do3-yR-LuS"/>
+                        <exclude reference="Ijs-zl-gmE"/>
+                        <exclude reference="dia-m9-Lit"/>
+                        <exclude reference="Krr-cS-Chy"/>
+                        <exclude reference="UyR-lJ-ucN"/>
+                        <exclude reference="zWE-C6-HTF"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="CMC-s6-hv4"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="Krr-cS-Chy"/>
+                        <include reference="UyR-lJ-ucN"/>
+                        <include reference="zWE-C6-HTF"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceLabel" destination="aU6-n9-P9d" id="JuM-Gn-snk"/>
+                <outlet property="headIV" destination="IGw-a1-UBE" id="DVv-Aw-222"/>
+                <outlet property="nickNameLabel" destination="FRB-Z4-bUf" id="5rb-xJ-QD7"/>
+                <outlet property="orderPrice" destination="mQ7-s7-uh4" id="sb0-Sm-wBL"/>
+                <outlet property="serviceNameLabel" destination="1r4-cX-Yfn" id="eLg-1m-rqV"/>
+                <outlet property="userType" destination="CMC-s6-hv4" id="TVk-MW-qp6"/>
+            </connections>
+            <point key="canvasLocation" x="362" y="304"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img_03.png" width="180" height="132"/>
+        <image name="邀.png" width="28" height="28"/>
+    </resources>
+</document>

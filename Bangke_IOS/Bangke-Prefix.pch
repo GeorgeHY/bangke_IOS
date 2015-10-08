@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  Bangke_IOS
+//
+//  Created by 韩扬 on 15/4/27.
+//  Copyright (c) 2015年 iwind. All rights reserved.
+//
+
+#ifndef Bangke_IOS_PrefixHeader_pch
+#define Bangke_IOS_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "CONSTANT.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "MMPlaceHolder.h"
+#import "AFNHttpTools.h"
+#import "UIView+Toast.h"
+#import "JSONModel.h"
+#import "UserInfoTool.h"
+#import "EaseMob.h"
+#import "UIViewController+HUD.h"
+#import "EMSDKFull.h"
+#import "ChatDemoUIDefine.h"
+#import "QNUploadManagerTool.h"
+#import "TimeTool.h"
+#import "AppDelegate.h"
+#import "UserInfoTool.h"
+#import "UIImageView+WebCache.h"
+#import "OrderRequestTool.h"
+#import "UIColor+AddColor.h"
+#endif

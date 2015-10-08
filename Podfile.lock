@@ -1,0 +1,97 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CircleStatus (1.2.0):
+    - CircleStatus/Core (= 1.2.0)
+  - CircleStatus/Core (1.2.0):
+    - NOCategories
+  - EaseMobSDKFull (2.1.5)
+  - ECSlidingViewController (2.0.3)
+  - HMSegmentedControl (1.5.1)
+  - JSONModel (1.0.2)
+  - Masonry (0.6.1)
+  - MJRefresh (1.4.5)
+  - MMPlaceHolder (1.6)
+  - NOCategories (0.4.1)
+  - Qiniu (7.0.9.1):
+    - AFNetworking (~> 2.0)
+  - REMenu (1.10)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SWTableViewCell (0.3.7)
+  - Toast (2.4)
+  - WebViewJavascriptBridge (4.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BlocksKit
+  - CircleStatus
+  - EaseMobSDKFull
+  - ECSlidingViewController
+  - HMSegmentedControl
+  - JSONModel
+  - Masonry
+  - MJRefresh
+  - MMPlaceHolder
+  - Qiniu
+  - REMenu
+  - SDWebImage
+  - SWTableViewCell
+  - Toast
+  - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CircleStatus: f03bddf1f955393af6ffaac2be1f471357159028
+  EaseMobSDKFull: 2a2617938192a53dd13ca67b99dd57b98de1a077
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  HMSegmentedControl: 35460abdd15c3087368db2d3d956717f088b34d1
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
+  MMPlaceHolder: 3e9c27eb28c9d3a317977e3005b7ede5d6917379
+  NOCategories: d10bdd9aaf9d698deffd1e2e7cf4fa6ac7d6614e
+  Qiniu: cd281425298a3f30495135ab9a9442bf400dab28
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  WebViewJavascriptBridge: f10ac16f2cd3adf2b941bd79477c55a8f6e01044
+
+COCOAPODS: 0.38.2
